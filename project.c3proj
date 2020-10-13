@@ -142,7 +142,8 @@
 			"you winscreen",
 			"game over screen",
 			"you fell",
-			"instructions"
+			"instructions",
+			"James' level"
 		],
 		"subfolders": []
 	},
@@ -153,7 +154,8 @@
 			"you win eventsheet",
 			"gameover screen",
 			"you fell event sheet",
-			"instruction event sheet"
+			"instruction event sheet",
+			"James' ES"
 		],
 		"subfolders": []
 	},
