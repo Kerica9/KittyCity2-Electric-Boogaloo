@@ -199,6 +199,54 @@
 				}
 			],
 			"sid": 710606865460439
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 449588029341815,
+					"parameters": {
+						"object": "death"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 415875329502746,
+					"parameters": {
+						"layout": "you fell"
+					}
+				}
+			],
+			"sid": 568466797755607
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "kitty",
+					"sid": 677886954100827,
+					"parameters": {
+						"object": "fish"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 540287378675221,
+					"parameters": {
+						"layout": "you winscreen"
+					}
+				}
+			],
+			"sid": 779935883878948
 		}
 	],
 	"sid": 295102782673946
