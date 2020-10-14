@@ -487,6 +487,31 @@
 				}
 			],
 			"sid": 937867416716329
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "movingBG",
+					"sid": 495394630450329,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-1136"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 845972780600743,
+					"parameters": {
+						"x": "movingBG.X + 2272"
+					}
+				}
+			],
+			"sid": 992873274373349
 		}
 	],
 	"sid": 462337385455810

@@ -98,10 +98,10 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 317532452548818,
+					"sid": 212305826116871,
 					"parameters": {
 						"audio-file": "Electro Opening Theme",
-						"loop": "not-looping",
+						"loop": "looping",
 						"volume": "0",
 						"tag-optional": "\"\""
 					}
@@ -247,6 +247,52 @@
 				}
 			],
 			"sid": 779935883878948
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 604391895953624
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 600230842715869,
+					"parameters": {
+						"x": "movingBG.X-bg_speed2* dt"
+					}
+				}
+			],
+			"sid": 573827631877777
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "movingBG",
+					"sid": 150256817525331,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-1136"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "movingBG",
+					"sid": 512434576485748,
+					"parameters": {
+						"x": "movingBG.X + 2272"
+					}
+				}
+			],
+			"sid": 960340012826323
 		}
 	],
 	"sid": 295102782673946
