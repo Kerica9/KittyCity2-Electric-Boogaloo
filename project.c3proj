@@ -137,13 +137,14 @@
 	},
 	"layouts": {
 		"items": [
-			"level 1",
 			"introscreen",
+			"Nate's level",
+			"James' level",
+			"level 1",
 			"you winscreen",
 			"game over screen",
 			"you fell",
-			"instructions",
-			"James' level"
+			"instructions"
 		],
 		"subfolders": []
 	},
@@ -155,7 +156,8 @@
 			"gameover screen",
 			"you fell event sheet",
 			"instruction event sheet",
-			"James' ES"
+			"James' ES",
+			"nate's event sheet"
 		],
 		"subfolders": []
 	},
