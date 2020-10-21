@@ -140,11 +140,10 @@
 			"introscreen",
 			"Nate's level",
 			"James' level",
-			"level 1",
 			"you winscreen",
 			"game over screen",
-			"you fell",
-			"instructions"
+			"instructions",
+			"you fell"
 		],
 		"subfolders": []
 	},
@@ -154,10 +153,10 @@
 			"intro screen eventsheet",
 			"you win eventsheet",
 			"gameover screen",
-			"you fell event sheet",
 			"instruction event sheet",
 			"James' ES",
-			"nate's event sheet"
+			"nate's event sheet",
+			"you fell event sheet"
 		],
 		"subfolders": []
 	},

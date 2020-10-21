@@ -24,7 +24,7 @@
 					"world": {
 						"x": 0,
 						"y": 0,
-						"width": 1136,
+						"width": 1176,
 						"height": 640,
 						"originX": 0,
 						"originY": 0,
@@ -385,5 +385,5 @@
 	"width": 1136,
 	"height": 640,
 	"unboundedScrolling": true,
-	"eventSheet": "Level 1 event sheet"
+	"eventSheet": "nate's event sheet"
 }
