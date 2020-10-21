@@ -238,11 +238,11 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
+					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
-					"sid": 540287378675221,
+					"sid": 652186256231822,
 					"parameters": {
-						"layout": "you winscreen"
+						"which": "next"
 					}
 				}
 			],
